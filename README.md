@@ -2,6 +2,7 @@
 ## Generate unique identifiers for your PHP primitives, arrays and objects
 
 This tiny composer package provides a `universal_identifier()` global function, which can be used to generate sha256 identifiers for values and arrays/objects.
+
 These identifiers can be used to easily compare configurations both in code and in database queries, without having to manually sort and compare every items and sub-items inside an array or an object.
 
 ## Getting started
@@ -48,7 +49,7 @@ echo universal_identifier($yourArray);
 ```
 
 ## Contributing
-Feel free to submit pull requests on [the GitHub repository](https://github.com/EmilePerron/array-identifier) if you want to add functionalities or suggest improvements to this library. I will look them over and merge them as soon as possible.
+Feel free to submit pull requests on [the GitHub repository](https://github.com/EmilePerron/universal-identifier) if you want to add functionalities or suggest improvements to this library. I will look them over and merge them as soon as possible.
 
 You can also submit issues if you run into problems but don't have time to implement a fix.
 
@@ -56,6 +57,6 @@ You can also submit issues if you run into problems but don't have time to imple
 Finally, if you use the library and would like to support me, here are the ways you can do that:
 
 - Saying thanks directly on Twitter: [@cunrakes](https://twitter.com/cunrakes)
-- Giving this repository a star [on GitHub](https://github.com/EmilePerron/array-identifier)
+- Giving this repository a star [on GitHub](https://github.com/EmilePerron/universal-identifier)
 - Taking a look at my other projects [on my website](https://www.emileperron.com)
 - [Buying me a cup of tea](https://www.buymeacoffee.com/EmilePerron) ☕️
