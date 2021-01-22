@@ -18,5 +18,8 @@
     "minimum-stability": "stable",
     "autoload": {
         "files": ["src/UniversalIdentifier.php"]
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
     }
 }
